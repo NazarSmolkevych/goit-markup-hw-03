@@ -141,10 +141,17 @@ color:var(--accent-color);
 
 /* hero */
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--background-dar-color);
     text-align: center;
+  
+    
 }
 .hero-title {
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
     margin-bottom: 30px;
     font-weight: 900;
@@ -161,6 +168,7 @@ background-color:var(--accent-color);
 color: var(--hero-title-color);
 }
 .button {
+    border: none;
        border-radius: 4px;
        padding: 10px 32px;
        font-family: var(--primary-font);
@@ -173,7 +181,7 @@ color: var(--hero-title-color);
       
 }
 
-/* section */
+/* Особливості*/
 
 .section-container{
     display: flex;
@@ -209,9 +217,21 @@ color: var(--hero-title-color);
     margin: -1px;
 }
 
+/*  Чим ми займаємося*/
+
+.section-title-page{
+    padding-top: 0;
+}
+
 .foto-elements{
     flex-basis: calc((100% - 60px) / 3);
 }
+
+.elements{
+    margin-right: 30px;
+    column-gap: 30px;
+}
+
 .section-title{
     margin-bottom: 50px;
     font-weight: 700;
@@ -227,6 +247,7 @@ color: var(--hero-title-color);
    
  .title{
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;   
  }
@@ -235,11 +256,11 @@ color: var(--hero-title-color);
         line-height: 1.71;
         color: var(--secondary-text-color);
  }   
-/* Section team */
+/* Наша команда */
 
 .team-list{
     display: flex;
-    padding-bottom: 94px;
+   
     column-gap: 30px;
 }
 
@@ -301,12 +322,14 @@ color: var(--hero-title-color);
          color: var(--hero-title-color);
 }
 
+
+
 .contact-footer{
-    padding-top: 9px;
+    margin-top: 9px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.71;
-    color: var(--contacts-color);
+         color: var(--contacts-color);
 }
 
 .contact-footer:hover,
@@ -329,7 +352,7 @@ color: var(--background-cloudy-color);
         font-size: 18px;
         line-height: 2;
         letter-spacing: 0.06em;
-        padding-bottom: 4px;
+      margin-bottom: 4px;
      }
 
 .pagelist{
@@ -345,6 +368,7 @@ color: var(--background-cloudy-color);
     gap: 30px;
     flex-basis: calc((100% - 60px) / 3);
     padding-bottom: 94px;
+   
 }
 
 
@@ -352,12 +376,12 @@ color: var(--background-cloudy-color);
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-    padding-top: 94px;
+   margin-top: 94px;
     column-gap: 8px;
 }
 
 .flex-element{
-    padding: 20px 24px;
+   padding: 20px 24px;
     border: 1px solid #EEEEEE
 }
 .pagemain{
